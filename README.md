@@ -98,7 +98,6 @@
 		let cCount = 0;
 		let dCount = 0;
 		let eCount = 0;
-
 		const question1 = document.querySelector('input[name="question1"]:checked').value;
 		const question2 = document.querySelector('input[name="question2"]:checked').value;
 		const question3 = document.querySelector('input[name="question3"]:checked').value;
