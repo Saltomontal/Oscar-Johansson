@@ -166,21 +166,22 @@
 
 		switch (question4) {
 			case ""a":
-aCount++;
-break;
-case "b":
-bCount++;
-break;
-case "c":
-cCount++;
-break;
-case "d":
-dCount++;
-break;
-case "e":
-eCount++;
-break;
-}
+				aCount++;
+				break;
+				case "b":
+				bCount++;
+				break;
+				case "c":
+				cCount++;
+				break;
+				case "d":
+				dCount++;
+				break;
+				case "e":
+				eCount++;
+				break;
+				}
+
 		switch (question5) {
 			case "a":
 				aCount++;
