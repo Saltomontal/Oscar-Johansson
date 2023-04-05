@@ -4,7 +4,7 @@
 	<title>Delphi Dorm Party Archetype Quiz proudly presented by ChatGPT</title>
 </head>
 <body>
-	<h1>Welcome to the Delphi Dorm Archetype Quiz - Raunchy Party Edition!</h1>
+	<h1>Welcome to the Delphi Dorm Archetype Quiz!</h1>
 	<p>This quiz will place you into one of five archetypes of student personalities that live in a corridor at Delphi, Lund University. Answer the following ten questions honestly to find out which archetype you fit into. Have fun and enjoy getting to know more about the wilder side of student life at Lund!</p>
 	<ol>
 		<li>How often do you attend parties or go clubbing?</li>
@@ -92,7 +92,7 @@
 <div id="result"></div>
 <script>
 	function calculateResult() {
-		let result = 100;
+		let result = "";
 		let aCount = 0;
 		let bCount = 0;
 		let cCount = 0;
