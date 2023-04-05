@@ -89,6 +89,7 @@
 </ul>
 </ol>
 <input type="button" value="Submit" onclick="calculateResult()">
+
 <script>
 	function calculateResult() {
 		let result = "";
