@@ -92,7 +92,7 @@
 <div id="result"></div>
 <script>
 	function calculateResult() {
-		let result = "";
+		let result = 100;
 		let aCount = 0;
 		let bCount = 0;
 		let cCount = 0;
@@ -302,7 +302,7 @@
 			result = "The Daring Adventurer";
 		}
 
-		document.getElementById("result").innerHTML = 10;
+		document.getElementById("result").innerHTML = result;
 	}
 </script>
 </body>
