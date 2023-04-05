@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>Delphi Dorm Party Archetype Quiz proudly presented by ChatGPT</title>
@@ -88,8 +88,7 @@
 <li><input type="radio" name="question10" value="e">Turned the party into a daring adventure or competition</li>
 </ul>
 </ol>
-<button onclick="calculateResult()">Submit</button>
-<div id="result"></div>
+<input type="button" value="Submit" onclick="calculateResult()">
 <script>
 	function calculateResult() {
 		let result = "";
