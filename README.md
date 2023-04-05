@@ -165,4 +165,144 @@
 		}
 
 		switch (question4) {
-			case "
+			case ""a":
+aCount++;
+break;
+case "b":
+bCount++;
+break;
+case "c":
+cCount++;
+break;
+case "d":
+dCount++;
+break;
+case "e":
+eCount++;
+break;
+}
+		switch (question5) {
+			case "a":
+				aCount++;
+				break;
+			case "b":
+				bCount++;
+				break;
+			case "c":
+				cCount++;
+				break;
+			case "d":
+				dCount++;
+				break;
+			case "e":
+				eCount++;
+				break;
+		}
+
+		switch (question6) {
+			case "a":
+				aCount++;
+				break;
+			case "b":
+				bCount++;
+				break;
+			case "c":
+				cCount++;
+				break;
+			case "d":
+				dCount++;
+				break;
+			case "e":
+				eCount++;
+				break;
+		}
+
+		switch (question7) {
+			case "a":
+				aCount++;
+				break;
+			case "b":
+				bCount++;
+				break;
+			case "c":
+				cCount++;
+				break;
+			case "d":
+				dCount++;
+				break;
+			case "e":
+				eCount++;
+				break;
+		}
+
+		switch (question8) {
+			case "a":
+				aCount++;
+				break;
+			case "b":
+				bCount++;
+				break;
+			case "c":
+				cCount++;
+				break;
+			case "d":
+				dCount++;
+				break;
+			case "e":
+				eCount++;
+				break;
+		}
+
+		switch (question9) {
+			case "a":
+				aCount++;
+				break;
+			case "b":
+				bCount++;
+				break;
+			case "c":
+				cCount++;
+				break;
+			case "d":
+				dCount++;
+				break;
+			case "e":
+				eCount++;
+				break;
+		}
+
+		switch (question10) {
+			case "a":
+				aCount++;
+				break;
+			case "b":
+				bCount++;
+				break;
+			case "c":
+				cCount++;
+				break;
+			case "d":
+				dCount++;
+				break;
+			case "e":
+				eCount++;
+				break;
+		}
+
+		if (aCount > bCount && aCount > cCount && aCount > dCount && aCount > eCount) {
+			result = "The Wild Party Animal";
+		} else if (bCount > aCount && bCount > cCount && bCount > dCount && bCount > eCount) {
+			result = "The Intellectual Partier";
+		} else if (cCount > aCount && cCount > bCount && cCount > dCount && cCount > eCount) {
+			result = "The Foodie Reveler";
+		} else if (dCount > aCount && dCount > bCount && dCount > cCount && dCount > eCount) {
+			result = "The Social Gamer";
+		} else {
+			result = "The Daring Adventurer";
+		}
+
+		document.getElementById("result").innerHTML = result;
+	}
+</script>
+</body>
+</html>
