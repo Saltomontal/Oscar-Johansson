@@ -302,7 +302,7 @@
 			result = "The Daring Adventurer";
 		}
 
-		document.getElementById("result").innerHTML = result;
+		document.getElementById("result").innerHTML = 10;
 	}
 </script>
 </body>
